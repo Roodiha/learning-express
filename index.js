@@ -22,15 +22,11 @@ app.use(express.static(path.join(__dirname,'public')))
 // Home route
 app.get('/', (req, res) => {
   res.render('index', {
-    title : 'Home', 
-    logo: 'CodingLab',
-    list1: 'Home',
-    about: 'About',
+    title : 'Solid Template', 
+    heading1: 'Landing template for startups',
+    price: '49',
+    text: 'Still not convinced on buying?',
     services: 'Services',
-    contact: 'Contact',
-    feedback: 'Feedback',
-    button1: "Learn More",
-    button2: "Subscribe"
   })
   // res.sendFile(path.join(__filename, 'public/index.html'))
   // res.send('Welcome to the Express app!');
