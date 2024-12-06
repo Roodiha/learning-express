@@ -25,8 +25,7 @@ app.get('/', (req, res) => {
     title : 'Solid Template', 
     heading1: 'Landing template for startups',
     price: '49',
-    text: 'Still not convinced on buying?',
-    services: 'Services',
+    text: 'Still not convinced on buying?'
   })
   // res.sendFile(path.join(__filename, 'public/index.html'))
   // res.send('Welcome to the Express app!');
